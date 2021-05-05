@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/gray</item>
+        <item name="colorPrimaryDark">@color/gray</item>
+        <item name="colorAccent">@color/gray</item>
+
+        <item name="android:windowBackground">@color/soothing_blue</item>
+    </style>
+
+    <style name="FactTextView">
+        <item name="android:background">@color/dark_blue</item>
+    </style>
+    <style name="StrongFactTextView" parent="@style/FactTextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
